@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Javascript conditional statements</title>
+		<script type="text/javascript">
+			var secret_num = 2;
+            for (var i = 0; i < 3; i++){
+                var num = parseInt(prompt("Enter your guess (1-10)"));
+                if (num == secret_num){
+                    document.write("WOAHHH, THAT'S THE RIGHT GUESS, check your inbox and fill in your bank information, we'll send you $100 😈");
+                    break;
+                } else if (i==2){
+                    document.write("You have exhausted your attempts!");
+                }
+                else{
+                    alert("You suck")
+                }
+            }
+		</script>
+	</head>
+	
+	<body>
+		
+	</body>
+</html>
